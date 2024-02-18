@@ -1,7 +1,43 @@
-*{
-    box-sizing: border-box;
-}
-
 body{
     margin: 0px;
+    background-color: beige;
+}
+
+.container{  
+    margin: 0px;    
+}
+
+.header{
+    height: 8vh;
+    width: 80%;
+    border-radius: 0px 0 50px 50px;
+    background-color:   rgb(67, 7, 82);
+    margin-left: 100px;
+    display: flex;
+    
+}
+
+.header-right{
+    position: absolute;
+    margin: 15px 0px 0px 550px;
+}
+
+.name{
+    text-align: left;
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+    margin: 0px;
+    padding: 10px 0px 0px 35px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
 }
